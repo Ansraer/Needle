@@ -18,6 +18,7 @@ public class LeaderboardPosterTransformer extends JavassistTransformer {
 
         System.out.println("disabling leaderboard uploads");
 
+
         //adding needle to version info
         try {
             CtMethod sendPost = cc.getDeclaredMethod("sendPost");
